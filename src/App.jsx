@@ -4,21 +4,29 @@ import Hero from './sections/Hero';
 import About from './sections/About';
 import Skills from './sections/Skills';
 import Projects from './sections/Projects';
+import Events from './sections/Events';
+import Blog from './sections/Blog';
 import Contact from './sections/Contact';
 
-function App() {
+const App = () => {
     return (
-        <div className="bg-slate-900 min-h-screen text-slate-100 selection:bg-cyan-500 selection:text-cyan-900 font-sans">
+        <div className="bg-black min-h-screen text-slate-200 selection:bg-violet-500/30 selection:text-violet-200">
             <Navbar />
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-24 pb-24">
+            <main>
                 <Hero />
                 <About />
                 <Skills />
                 <Projects />
+                <Events />
+                <Blog />
                 <Contact />
             </main>
+
+            <footer className="bg-black border-t border-slate-900 py-8 text-center text-slate-500 text-sm">
+                <p>© {new Date().getFullYear()} Marwan Shafi. All rights reserved.</p>
+            </footer>
         </div>
     );
-}
+};
 
 export default App;

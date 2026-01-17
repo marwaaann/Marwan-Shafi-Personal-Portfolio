@@ -73,6 +73,18 @@ const Hero = () => {
                                 Resume
                             </a>
                             <a
+                                href="#events"
+                                className="px-8 py-4 bg-transparent border border-slate-600 text-white font-bold rounded-full hover:bg-slate-800 hover:border-slate-500 transition-all"
+                            >
+                                Events
+                            </a>
+                            <a
+                                href="#blog"
+                                className="px-8 py-4 bg-transparent border border-slate-600 text-white font-bold rounded-full hover:bg-slate-800 hover:border-slate-500 transition-all"
+                            >
+                                Blog
+                            </a>
+                            <a
                                 href="#contact"
                                 className="px-8 py-4 bg-transparent border border-slate-600 text-white font-bold rounded-full hover:bg-slate-800 hover:border-slate-500 transition-all"
                             >
