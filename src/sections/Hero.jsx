@@ -64,6 +64,15 @@ const Hero = () => {
                                 View My Work
                             </a>
                             <a
+                                href="https://drive.google.com/file/d/13cpnAYs-b-bXXXWypB4pLOVwKnxFod0K/view?usp=sharing"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="px-8 py-4 bg-zinc-900 border border-slate-700 text-white font-bold rounded-full hover:bg-zinc-800 hover:border-violet-500 transition-all flex items-center gap-2"
+                            >
+                                <Download className="w-5 h-5" />
+                                Resume
+                            </a>
+                            <a
                                 href="#contact"
                                 className="px-8 py-4 bg-transparent border border-slate-600 text-white font-bold rounded-full hover:bg-slate-800 hover:border-slate-500 transition-all"
                             >
